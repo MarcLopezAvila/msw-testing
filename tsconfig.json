@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "useDefineForClassFields": true,
+    "types": ["node", "jest"],
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
     "skipLibCheck": true,
@@ -17,10 +18,12 @@
     "jsx": "react-jsx",
     "baseUrl": "./",
     "paths": {
-      "common/*": ["./src/common/*"]
+      "application/*": ["./src/application/*"],
+      "common/*": ["./src/common/*"],
+      "helpers/*": ["./src/helpers/*"]
     }
   },
   "include": ["src", "src/**/*", "vite.config.ts"],
-  "exclude": ["dist", "node_modules"],
+  "exclude": ["dist", "node_modules", "jest.config.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

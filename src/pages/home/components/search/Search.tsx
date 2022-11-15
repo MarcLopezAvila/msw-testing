@@ -13,7 +13,7 @@ const Search = ({ onSearch }: Props) => {
 
   return (
     <Wrapper>
-      <input type="text" onChange={handleChange} />
+      <input type="text" placeholder="character name" onChange={handleChange} />
       <button onClick={handleSearch}>Search</button>
     </Wrapper>
   );

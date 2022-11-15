@@ -8,6 +8,7 @@ export default defineConfig({
     alias: {
       common: path.resolve(__dirname, './src/common'),
       pages: path.resolve(__dirname, './src/pages'),
+      helpers: path.resolve(__dirname, './src/helpers'),
       application: path.resolve(__dirname, './src/application'),
     },
   },
