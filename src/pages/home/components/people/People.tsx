@@ -7,8 +7,8 @@ interface Props {
 
 const People = ({ people }: Props) => (
   <div>
-    {people.map(({ name }) => (
-      <Item>
+    {people.map(({ name }, index) => (
+      <Item key={index}>
         <Name>{name}</Name>
       </Item>
     ))}

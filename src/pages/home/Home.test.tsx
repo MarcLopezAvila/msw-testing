@@ -4,8 +4,8 @@ import { DB } from 'helpers/mock-server/types';
 import Home from './Home';
 
 const initialData = {
-  yoda: { name: 'Yoda', url: '1' },
-  luke: { name: 'Luke', url: '2' },
+  yoda: { name: 'Yoda' },
+  luke: { name: 'Luke' },
 };
 
 const setInitialData = (db: DB) => {

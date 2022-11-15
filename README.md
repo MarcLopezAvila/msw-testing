@@ -1,4 +1,4 @@
-# MSW Testing Worker and Server
+# MSW Worker and Server
 
 ## Example of usage MSW for testing
 
